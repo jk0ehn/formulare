@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-image: url(/media/img1.png);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.searchbar {
+
+display: grid;
+grid-template-columns: 1fr 75% 1fr 1fr ;
+
+    box-shadow: 0 2px 4px rgb(0 0 0 / 20%), 0 -1px 0px rgb(0 0 0 / 2%);
+    background-color: white;
+   
+    height: 48px;
+    border-radius: 8px;
+
+
+}
+
+
+button {
+
+
+    border: none;
+    background-color: transparent;
+
+
+
+
+}
+
+
+.searchbar2 {
+
+    display: grid;
+    grid-template-columns: 1fr 75% 1fr 1fr ;
+    
+        box-shadow: 0 2px 4px rgb(0 0 0 / 20%), 0 -1px 0px rgb(0 0 0 / 2%);
+        background-color: white;
+       
+        height: 48px;
+        border-radius: 8px;
+
+
+    
+    
+    }
+
+
+    input {
+        border: none;
+        font-family: inherit;
+        font-size: 15px;
+        font-weight: 300;
+        color: grey;
+
+    }
